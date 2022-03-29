@@ -1,0 +1,463 @@
+/* Цветовая гамма */
+/* цвет основного текста  #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* белый с прозрачностью color: rgba(255, 255, 255, 0.6); */
+/* синий #2196F3 */
+/* bgc героя и футера #2F303A */
+/* bgc секции наши преимущества и чем мы занимаемся, портфолио #E5E5E5*/
+/* bgc наша команда   #F5F4FA*/
+/* font-family: 'Raleway', sans-serif;
+   font-family: 'Roboto', sans-serif; */
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --white-color: #FFFFFF;
+    --transparency-white-color: rgba(255, 255, 255, 0.6);
+    --blue-color: #2196F3;
+    --footer-bgc: #2F303A;
+    --portfolio-bgc: #E5E5E5;
+    --team-bgc: #F5F4FA;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--main-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+/* header */
+.header {
+    border-bottom: 1px solid #ECECEC;
+    background-color: var(--white-color);
+}
+
+.container-navigation-div {
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.web-studio {
+    margin-right: 93px;
+    
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--blue-color);
+}
+
+.logo-dark{
+    color: var(--main-color);
+}
+
+.container-nav-main{
+    display: flex;
+    padding-left: 0px;
+}
+.container-nav-main .item + .item { 
+    margin-left: 50px;
+}
+
+.container-nav-main .link
+ {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.container-nav-main .link {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+}
+
+.container-nav-contacts{
+    display: flex;
+    margin-left: auto;
+}
+    
+.container-nav-contacts .item-contacts + .item-contacts{
+     margin-left: 50px;
+}
+
+.container-nav-contacts .contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.container-nav-contacts,
+.contact {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+}
+
+.container-nav-main .link:hover,
+.container-nav-main .link:focus,
+.container-nav-contacts .contact:hover,
+.container-nav-contacts .contact:focus {
+    color: var(--blue-color);
+}
+
+.web-studio,
+.web-studio-footer,
+.link,
+.contact {
+    text-decoration: none
+}
+
+
+/* main */
+/* hero */
+
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+
+    background: var(--footer-bgc); 
+}
+
+.hero-title {
+    margin: 0px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--white-color);  
+}
+
+.hero-button {
+    margin-top: 40px;
+
+    color: var(--white-color);    
+    background: var(--blue-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    
+    border-radius: 4px;
+}
+
+/* features */
+.section {
+    padding: 94px 0px;
+    background-color: var(--portfolio-bgc);
+}
+
+.features-title{
+    display: none;
+}
+
+.features-unodered-list {
+    display: flex;
+}
+
+.features-list {
+    margin-right: 30px;
+}
+
+.features-list:last-child {
+    margin-right: 0px;
+}
+
+.features-link {
+    margin-bottom: 10px;
+    color: var(--main-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+/* work */
+.work {
+   padding-top: 0px;
+}
+
+.work-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.work-list {
+    display: flex;
+    justify-content: center;
+}
+
+.work-list-item {
+    margin-right: 30px;    
+}
+
+
+
+.work-list-item:last-child {
+    margin-right: 0px;
+}
+
+.work-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+/* team */
+.team {
+    background-color: var(--team-bgc);
+}
+
+.team-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-list-item {
+    margin-right: 30px;
+
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+}
+
+.team-list-item:last-child {
+    margin-right: 0px;
+}
+
+.team-member{
+    margin-bottom: 10px;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+}
+
+.team-member-profession{
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-color);
+}
+
+.team-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* buttons-portfolio */
+
+.buttons-title {
+    display: none;
+}
+
+.section-portfolio {
+    padding: 94px 0px;
+    background-color: var(--white-color);
+}
+
+.buttons-title-div {
+    margin-bottom: 50px;
+}
+
+.buttons-portfolio {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+.buttons-portfolio .buttons-list + .buttons-list {
+    margin-left: 8px;
+}
+
+.button-all,
+.button-web,
+.button-apps,
+.button-design,
+.button-marketing{
+    color: var(--main-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-all:hover,
+.button-web:hover,
+.button-apps:hover,
+.button-design:hover,
+.button-marketing:hover {
+    color: var(--white-color);
+    background: var(--blue-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.button-all:focus,
+.button-web:focus,
+.button-apps:focus,
+.button-design:focus,
+.button-marketing:focus {
+    color: var(--white-color);
+    background: var(--blue-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.examples-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.examples-list .portfolio-list {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.examples-list .portfolio-list:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.examples-list .portfolio-list:nth-last-child(-n+3) {
+
+}
+
+.examples-title-main{
+    display: none;
+}
+
+.examples-title{
+    margin-bottom: 4px;
+    color: var(--main-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em; 
+}
+
+.examples-type{
+    color: var(--secondary-color);
+
+    font-size: 16px;
+    line-height: 1.89;
+    letter-spacing: 0.03em;
+}
+
+.examples-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+/* footer */
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--footer-bgc); 
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.web-studio-footer {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--blue-color);
+}
+.logo-light{
+    color: var(--white-color);
+} 
+
+.address{ 
+    font-style: normal;
+}
+
+.address-link {
+    margin-bottom: 9px;
+}
+
+.address-link:last-child {
+   margin-bottom: 0px;
+}
+
+.company-adress {
+    color: var(--white-color);
+}
+
+.footer-contacts {
+    color: var(--transparency-white-color);
+}
+
+.company-adress,
+.footer-contacts {
+    text-decoration: none
+}
