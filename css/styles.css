@@ -37,16 +37,18 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.container {
+    max-width: 1200px;
+}
+
 /* header */
 .header {
     border-bottom: 1px solid #ECECEC;
     background-color: var(--white-color);
 }
 
-.container-navigation-div {
-    display: flex;
-    align-items: center;
-}
+.navigation-div,
 .navigation {
     display: flex;
     align-items: center;
@@ -223,7 +225,6 @@ img {
 
 .work-list {
     display: flex;
-    justify-content: center;
 }
 
 .work-list-item {
@@ -257,7 +258,6 @@ img {
 
 .team-list {
     display: flex;
-    justify-content: center;
 }
 
 .team-list-item {
@@ -376,10 +376,6 @@ img {
     margin-right: 0px;
 }
 
-.examples-list .portfolio-list:nth-last-child(-n+3) {
-
-}
-
 .examples-title-main{
     display: none;
 }
@@ -461,3 +457,4 @@ img {
 .footer-contacts {
     text-decoration: none
 }
+
