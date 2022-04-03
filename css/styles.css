@@ -419,9 +419,10 @@ img {
 }
 
 /*clients*/
-.icon-logo-first {
-    color: aqua;
+.icon-logo {
+    color: var(--secondary-color);
 }
+
 /* footer */
 .footer{
     padding-top: 60px;
