@@ -420,7 +420,11 @@ img {
 
 /*clients*/
 .icon-logo {
-    fill: red;
+    display: flexbox;
+}
+
+.icon-logo-first {
+    fill: #2196F3;
 }
 
 /* footer */
