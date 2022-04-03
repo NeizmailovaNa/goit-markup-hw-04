@@ -421,6 +421,9 @@ img {
 /*clients*/
 .icon-logo {
     display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 .icon-logo-first {
