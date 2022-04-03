@@ -143,7 +143,9 @@ img {
     padding-bottom: 200px;
     text-align: center;
 
-    background: var(--footer-bgc); 
+    background: var(--footer-bgc);
+    background-image: url(../images/background-photo.jpg);
+    background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -176,7 +178,7 @@ img {
 /* features */
 .section {
     padding: 94px 0px;
-    background-color: var(--portfolio-bgc);
+    background-color: var(--white-color);
 }
 
 .features-title{
@@ -211,6 +213,15 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+}
+
+.icon {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    
+    background: var(--team-bgc);
+    border-radius: 4px;
 }
 
 /* work */
