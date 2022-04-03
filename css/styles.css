@@ -418,6 +418,10 @@ img {
     box-sizing: border-box;
 }
 
+/*clients*/
+.icon-logo-first {
+    color: aqua;
+}
 /* footer */
 .footer{
     padding-top: 60px;
