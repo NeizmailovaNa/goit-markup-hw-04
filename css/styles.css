@@ -491,7 +491,7 @@ img {
 .icon-logo-fourth:hover,
 .icon-logo-fifth:hover,
 .icon-logo-sixth:hover,
-.link-clients:hover {
+.border:hover {
     fill: var(--blue-color);
 }
 
