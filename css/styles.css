@@ -135,6 +135,22 @@ img {
     text-decoration: none
 }
 
+.nav-icon-envelope {
+    width: 16px;
+    height: 12px;
+    fill: var(--icons-color);
+}
+
+.nav-icon-smartphone {
+    width: 10px;
+    height: 16px;
+    fill: var(--icons-color);
+}
+
+.nav-icon-envelope:hover,
+.nav-icon-smartphone:hover {
+    fill: var(--blue-color);
+}
 
 /* main */
 /* hero */
@@ -217,8 +233,8 @@ img {
 }
 
 .icon {
-    width: 270px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     margin-bottom: 30px;
     
     background: var(--team-bgc);
