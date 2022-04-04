@@ -434,16 +434,21 @@ img {
 
 .icon-logo {
     display: flex;
-    margin: 94px;
+    margin: px;
     padding: 0px;
     list-style: none;
 }
 
-.icon-logo-svg {
+.icon-logo-first,
+.icon-logo-second,
+.icon-logo-third,
+.icon-logo-fourth,
+.icon-logo-fifth,
+.icon-logo-sixth {
     position: absolute;
     width: 106px;
     height: 60px;
-    margin: 16px 32px 16px 32px;
+    margin: 30px;
 
     fill: var(--icons-color);
     border: 1px solid var(--icons-color);
@@ -451,15 +456,16 @@ img {
     border-radius: 4px;
 }
 
-.icon-logo-svg:hover {
+.icon-logo-first:hover,
+.icon-logo-second:hover,
+.icon-logo-third:hover,
+.icon-logo-fourth:hover,
+.icon-logo-fifth:hover,
+.icon-logo-sixth:hover {
     fill: var(--blue-color);
 }
 
-.icon-logo-svg {
-    margin-right: 30px;
-}
-
-.icon-logo-svg:last-child {
+.icon-logo-list:last-child {
     margin-right: 0px;
 }
 
