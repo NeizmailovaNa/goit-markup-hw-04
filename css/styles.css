@@ -463,7 +463,7 @@ img {
     list-style: none;
 }
 
-.buttons-clients {
+.box-clients {
     margin-right: 30px;
     border: 1px solid var(--icons-color);
     box-sizing: border-box;
@@ -491,7 +491,7 @@ img {
 .icon-logo-fourth:hover,
 .icon-logo-fifth:hover,
 .icon-logo-sixth:hover,
-.buttons-clients:hover {
+.link-clients:hover {
     fill: var(--blue-color);
 }
 
