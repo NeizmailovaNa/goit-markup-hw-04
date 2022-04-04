@@ -234,10 +234,10 @@ img {
 }
 
 .icon {
+    display: inline-block;
+    margin: 25px 100px 25px 100px;
     width: 70px;
     height: 70px;
-    /*padding: 25px 100px 25px 100px;*/
-    
 }
 
 .features-box {
