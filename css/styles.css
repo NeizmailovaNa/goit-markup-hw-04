@@ -434,37 +434,32 @@ img {
 
 .icon-logo {
     display: flex;
-    margin: 0px;
+    margin: 94px;
     padding: 0px;
     list-style: none;
 }
 
-.icon-logo-first,
-.icon-logo-second,
-.icon-logo-third,
-.icon-logo-fourth,
-.icon-logo-fifth,
-.icon-logo-sixth {
+.icon-logo-svg {
+    position: absolute;
+    width: 106px;
+    height: 60px;
+    margin: 16px 32px 16px 32px;
+
     fill: var(--icons-color);
     border: 1px solid var(--icons-color);
     box-sizing: border-box;
     border-radius: 4px;
 }
 
-.icon-logo-first:hover,
-.icon-logo-second:hover,
-.icon-logo-third:hover,
-.icon-logo-fourth:hover,
-.icon-logo-fifth:hover,
-.icon-logo-sixth:hover {
+.icon-logo-svg:hover {
     fill: var(--blue-color);
 }
 
-.icon-logo-list {
+.icon-logo-svg {
     margin-right: 30px;
 }
 
-.icon-logo-list:last-child {
+.icon-logo-svg:last-child {
     margin-right: 0px;
 }
 
