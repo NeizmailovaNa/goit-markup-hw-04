@@ -234,11 +234,20 @@ img {
 }
 
 .icon {
+    justify-content: center;
     width: 70px;
     height: 70px;
-    padding: 25px 100px 25px 100px;
-    margin-bottom: 55px;
     
+   /* margin: 25px 100px 25px 100px;*/
+    
+    
+    
+}
+
+.features-border {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
     background: var(--team-bgc);
     border-radius: 4px;
 }
