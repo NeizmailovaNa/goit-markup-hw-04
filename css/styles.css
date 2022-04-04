@@ -234,11 +234,9 @@ img {
 }
 
 .icon {
-    display: inline-flex;
-    justify-content: center;
     width: 70px;
     height: 70px;
-    /*padding: 25px 100px 25px 100px;*/
+    padding: 25px 100px 25px 100px;
 }
 
 .features-box {
@@ -246,6 +244,7 @@ img {
     height: 120px;
     margin-bottom: 30px;
     background: var(--team-bgc);
+    
     border-radius: 4px;
 }
 
@@ -467,7 +466,7 @@ img {
     list-style: none;
 }
 
-.border-clients {
+.box-clients {
     margin-right: 30px;
     border: 1px solid var(--icons-color);
     box-sizing: border-box;
@@ -495,11 +494,11 @@ img {
 .icon-logo-fourth:hover,
 .icon-logo-fifth:hover,
 .icon-logo-sixth:hover,
-.border-clients:hover {
+.box-clients:hover {
     fill: var(--blue-color);
 }
 
-.border-clients:last-child {
+.box-clients:last-child {
     margin-right: 0px;
 }
 
