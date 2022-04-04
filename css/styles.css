@@ -477,7 +477,7 @@ img {
 .icon-logo-fourth,
 .icon-logo-fifth,
 .icon-logo-sixth {
-    margin: 16px 32px 16px 32px;
+    padding: 16px 32px 16px 32px;
     width: 106px;
     height: 60px;  
 
