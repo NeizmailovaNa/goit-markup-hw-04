@@ -420,7 +420,7 @@ img {
 }
 
 /*clients*/
-.cliets-title {
+.clients-title {
     padding-top: 94px;
     padding-bottom: 50px;
 
@@ -451,11 +451,11 @@ img {
     border-radius: 4px;
 }
 
-.icon-logo-first,
-.icon-logo-second,
-.icon-logo-third,
-.icon-logo-fourth,
-.icon-logo-fifth,
+.icon-logo-first:hover,
+.icon-logo-second:hover,
+.icon-logo-third:hover,
+.icon-logo-fourth:hover,
+.icon-logo-fifth:hover,
 .icon-logo-sixth:hover {
     fill: var(--blue-color);
 }
