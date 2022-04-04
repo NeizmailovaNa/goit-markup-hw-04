@@ -420,6 +420,10 @@ img {
 }
 
 /*clients*/
+/*.clients {
+    margin: 0px;
+    padding: 0px;
+}*/
 .clients-title {
     padding-top: 94px;
     padding-bottom: 50px;
@@ -434,9 +438,17 @@ img {
 
 .icon-logo-list {
     display: flex;
-    margin: 0px;
+    margin-bottom: 94px;
     padding: 0px;
     list-style: none;
+}
+
+.border-clients {
+    margin-right: 30px;
+    border: 1px solid var(--icons-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    fill: var(--icons-color);
 }
 
 .icon-logo-first,
@@ -445,13 +457,12 @@ img {
 .icon-logo-fourth,
 .icon-logo-fifth,
 .icon-logo-sixth {
+    margin: 16px 32px 16px 32px;
     width: 106px;
     height: 60px;  
 
     fill: var(--icons-color);
-    border: 1px solid var(--icons-color);
-    box-sizing: border-box;
-    border-radius: 4px;
+   
 }
 
 .icon-logo-first:hover,
@@ -459,11 +470,12 @@ img {
 .icon-logo-third:hover,
 .icon-logo-fourth:hover,
 .icon-logo-fifth:hover,
-.icon-logo-sixth:hover {
+.icon-logo-sixth:hover,
+.border-clients:hover {
     fill: var(--blue-color);
 }
 
-.icon-logo-list:last-child {
+.border-clients:last-child {
     margin-right: 0px;
 }
 
