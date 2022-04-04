@@ -432,9 +432,9 @@ img {
 
 }
 
-.icon-logo {
+.icon-logo-list {
     display: flex;
-    margin: px;
+    margin: 0px;
     padding: 0px;
     list-style: none;
 }
