@@ -462,9 +462,10 @@ img {
     padding: 0px;
     list-style: none;
 }
-
 .box-clients {
     margin-right: 30px;
+}
+.link-clients {
     border: 1px solid var(--icons-color);
     box-sizing: border-box;
     border-radius: 4px;
@@ -490,9 +491,12 @@ img {
 .icon-logo-third:hover,
 .icon-logo-fourth:hover,
 .icon-logo-fifth:hover,
-.icon-logo-sixth:hover,
-.border:hover {
+.icon-logo-sixth:hover {
     fill: var(--blue-color);
+}
+
+.link-clients:hover {
+    color: var(--blue-color);
 }
 
 .box-clients:last-child {
