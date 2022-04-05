@@ -633,4 +633,5 @@ img {
 .footer-linkedin {
     width: 20px;
     height: 20px;
+    fill: var(--white-color);
 }
