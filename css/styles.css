@@ -164,9 +164,9 @@ img {
     padding-bottom: 200px;
     text-align: center;
 
-    background: var(--footer-bgc);
     background-image: url(../images/background-photo.jpg);
     background-repeat: no-repeat;
+    background: rgba(47, 48, 58, 0.4);
 }
 
 .hero-title {
@@ -517,26 +517,32 @@ img {
     cursor: pointer;
 }
 
-.buttons-clients:hover {
+.buttons-clients:hover, 
+.buttons-clients:focus{
     border: 1px solid var(--blue-color);
     border-radius: 4px;
     background-color: var(--white-color);
-}
-
-.buttons-clients:focus {
-    border: 1px solid var(--blue-color);
-    border-radius: 4px;
-    background-color: var(--white-color);
+    cursor: pointer;
 }
 
 /* footer */
 .footer {
+    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--footer-bgc); 
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-contacts{
+    display: inline-block;
+    width: 231px;
 }
 
 .web-studio-footer {
@@ -578,5 +584,23 @@ img {
 .company-adress,
 .footer-contacts {
     text-decoration: none
+}
+
+.footer-networks {
+    margin-left: 70px;
+}
+
+.footer-title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.networks-list {
+    display: flex;
 }
 
