@@ -163,10 +163,10 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-
-    background-image: url(../images/background-photo.jpg);
+    
     background-repeat: no-repeat;
-    background: rgba(47, 48, 58, 0.4);
+    background-image: url(../images/background-photo.jpg);
+    background-image: linear-gradient(47, 48, 58, 0.4);
 }
 
 .hero-title {
@@ -611,7 +611,7 @@ img {
     margin-right: 0px;
 }
 
-.networks-link {
+.networks-buttons {
     padding: 0px;
     margin-right: 10px;
     width: 44px;
@@ -620,6 +620,13 @@ img {
     border: 0px;
     border-radius: 50px;
 }
+
+.networks-buttons:hover,
+.networks-buttons:focus {
+    background: var(--blue-color);
+    cursor: pointer;
+}
+
 .footer-instagram,
 .footer-vector,
 .footer-facebook,
