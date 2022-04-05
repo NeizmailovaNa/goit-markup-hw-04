@@ -136,19 +136,23 @@ img {
 }
 
 .nav-icon-envelope {
+    margin-right: 10px;
     width: 16px;
     height: 12px;
     fill: var(--icons-color);
 }
 
 .nav-icon-smartphone {
+    margin-right: 10px;
     width: 10px;
     height: 16px;
     fill: var(--icons-color);
 }
 
 .nav-icon-envelope:hover,
-.nav-icon-smartphone:hover {
+.nav-icon-smartphone:hover,
+.nav-icon-envelope:focus,
+.nav-icon-smartphone:focus {
     fill: var(--blue-color);
 }
 
@@ -493,20 +497,37 @@ img {
    
 }
 
-/*.icon-logo-first:hover,
+.icon-logo-first:hover,
 .icon-logo-second:hover,
 .icon-logo-third:hover,
 .icon-logo-fourth:hover,
 .icon-logo-fifth:hover,
 .icon-logo-sixth:hover {
     fill: var(--blue-color);
-}*/
-
-.buttons-clients:hover .icon-logo-first {
-    color: var(--blue-color);
+    cursor: pointer;
 }
 
+.icon-logo-first:focus,
+.icon-logo-second:focus,
+.icon-logo-third:focus,
+.icon-logo-fourth:focus,
+.icon-logo-fifth:focus,
+.icon-logo-sixth:focus {
+    fill: var(--blue-color);
+    cursor: pointer;
+}
 
+.buttons-clients:hover {
+    border: 1px solid var(--blue-color);
+    border-radius: 4px;
+    background-color: var(--white-color);
+}
+
+.buttons-clients:focus {
+    border: 1px solid var(--blue-color);
+    border-radius: 4px;
+    background-color: var(--white-color);
+}
 
 /* footer */
 .footer {
