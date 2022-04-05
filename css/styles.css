@@ -465,9 +465,16 @@ img {
 .box-clients {
     margin-right: 30px;
 }
-.link-clients {
+
+.box-clients:last-child {
+    margin-right: 0px;
+}
+
+.buttons-clients {
+    padding: 0px;
+    width: 170px;
+    height: 92px;
     border: 1px solid var(--icons-color);
-    box-sizing: border-box;
     border-radius: 4px;
     background-color: var(--white-color);
 }
@@ -478,7 +485,7 @@ img {
 .icon-logo-fourth,
 .icon-logo-fifth,
 .icon-logo-sixth {
-    padding: 16px 32px 16px 32px;
+    margin: 16px 32px 16px 32px;
     width: 106px;
     height: 60px;  
 
@@ -486,22 +493,20 @@ img {
    
 }
 
-.icon-logo-first:hover,
+/*.icon-logo-first:hover,
 .icon-logo-second:hover,
 .icon-logo-third:hover,
 .icon-logo-fourth:hover,
 .icon-logo-fifth:hover,
 .icon-logo-sixth:hover {
     fill: var(--blue-color);
-}
+}*/
 
-.link-clients:hover {
+.buttons-clients:hover .icon-logo-first {
     color: var(--blue-color);
 }
 
-.box-clients:last-child {
-    margin-right: 0px;
-}
+
 
 /* footer */
 .footer {
