@@ -592,6 +592,7 @@ img {
 
 .footer-title {
     display: inline-block;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -602,5 +603,27 @@ img {
 
 .networks-list {
     display: flex;
+    margin: 0px;
+    padding: 0px;
 }
 
+.networks-list:last-child {
+    margin-right: 0px;
+}
+
+.networks-link {
+    padding: 0px;
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0px;
+    border-radius: 50px;
+}
+.footer-instagram,
+.footer-vector,
+.footer-facebook,
+.footer-linkedin {
+    width: 20px;
+    height: 20px;
+}
