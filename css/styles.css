@@ -127,7 +127,7 @@ img {
 .container-nav-main .link:focus,
 .container-nav-contacts .contact:hover,
 .container-nav-contacts .contact:focus {
-    color: var(--blue-color);
+    fill: var(--blue-color);
 }
 
 .web-studio,
@@ -141,14 +141,12 @@ img {
     margin-right: 10px;
     width: 16px;
     height: 12px;
-    fill: var(--icons-color);
 }
 
 .nav-icon-smartphone {
     margin-right: 10px;
     width: 10px;
     height: 16px;
-    fill: var(--icons-color);
 }
 .contact {
     display: flex;
@@ -158,7 +156,7 @@ img {
 
 .contact:hover,
 .contact:focus {
-    color: var(--blue-color);
+    fill: var(--blue-color);
 }
 
 /* main */
