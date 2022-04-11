@@ -135,6 +135,7 @@ img {
 .contact:focus .nav-icon-envelope,
 .contact:focus .nav-icon-smartphone {
     fill: var(--blue-color);
+    color: var(--blue-color);
 }
 
 .web-studio,
