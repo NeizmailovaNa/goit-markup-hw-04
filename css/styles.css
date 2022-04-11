@@ -150,11 +150,13 @@ img {
     height: 16px;
     fill: var(--icons-color);
 }
+.contact {
+    display: flex;
+    align-items: center;
+}
 
-.nav-icon-envelope:hover,
-.nav-icon-smartphone:hover,
-.nav-icon-envelope:focus,
-.nav-icon-smartphone:focus {
+.contact:hover,
+.contact:focus {
     fill: var(--blue-color);
 }
 
