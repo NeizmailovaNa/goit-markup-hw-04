@@ -618,10 +618,6 @@ img {
     text-decoration: none
 }
 
-.footer-networks {
-    margin-left: 70px;
-}
-
 .footer-title {
     display: inline-block;
     margin-bottom: 20px;
@@ -637,6 +633,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 70px;
 }
 
 .footer-networks-list {
