@@ -158,7 +158,7 @@ img {
 
 .contact:hover,
 .contact:focus {
-    fill: var(--blue-color);
+    color: var(--blue-color);
 }
 
 /* main */
