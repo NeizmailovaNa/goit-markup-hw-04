@@ -633,19 +633,21 @@ img {
     color: var(--white-color);
 }
 
-.networks-list {
+.footer-networks {
     display: flex;
-    margin: 0px;
-    padding: 0px;
+    justify-content: center;
+    align-items: center;
 }
 
-.networks-list:last-child {
+.footer-networks-list {
+    margin-right: 10px;
+}
+
+.footer-networks-list:last-child {
     margin-right: 0px;
 }
 
-.networks-buttons {
-    padding: 0px;
-    margin-right: 10px;
+.footer-networks-link {
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.1);
@@ -653,16 +655,13 @@ img {
     border-radius: 50px;
 }
 
-.networks-buttons:hover,
-.networks-buttons:focus {
+.footer-networks-link:hover,
+.footer-networks-link:focus {
     background: var(--blue-color);
     cursor: pointer;
 }
 
-.footer-instagram,
-.footer-vector,
-.footer-facebook,
-.footer-linkedin {
+.footer-svg {
     width: 20px;
     height: 20px;
     fill: var(--white-color);
