@@ -507,6 +507,8 @@ img {
 
 .icon-logo-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-clients {
     margin-right: 30px;
@@ -516,7 +518,7 @@ img {
     margin-right: 0px;
 }
 
-.link-clients {
+.box-clients {
     width: 170px;
     height: 92px;
     border: 1px solid var(--icons-color);
