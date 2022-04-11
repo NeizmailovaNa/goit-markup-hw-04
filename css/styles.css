@@ -153,6 +153,7 @@ img {
 .contact {
     display: flex;
     align-items: center;
+    fill: var(--icons-color);
 }
 
 .contact:hover,
