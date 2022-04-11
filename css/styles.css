@@ -125,12 +125,16 @@ img {
 
 .link:hover,
 .link:focus,
+.contact:hover,
+.contact:focus {
+    color: var(--blue-color);
+}
+
 .contact:hover .nav-icon-envelope,
 .contact:hover .nav-icon-smartphone,
 .contact:focus .nav-icon-envelope,
 .contact:focus .nav-icon-smartphone {
     fill: var(--blue-color);
-    color: var(--blue-color);
 }
 
 .web-studio,
