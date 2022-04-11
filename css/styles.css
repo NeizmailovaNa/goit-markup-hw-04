@@ -359,6 +359,8 @@ img {
 }
 
 .team-networks {
+    display: flex;
+    justify-content: center;
     margin-right: 10px;
 }
 .team-networks:last-child {
