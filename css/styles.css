@@ -123,10 +123,13 @@ img {
     
 }
 
-.container-nav-main .link:hover,
-.container-nav-main .link:focus,
-.container-nav-contacts .contact:hover,
-.container-nav-contacts .contact:focus {
+.link:hover,
+.link:focus,
+.contact:hover .nav-icon-envelope,
+.contact:hover .nav-icon-smartphone,
+.contact:focus .nav-icon-envelope,
+.contact:focus .nav-icon-smartphone {
+    color: var(--blue-color);
     fill: var(--blue-color);
 }
 
@@ -150,6 +153,7 @@ img {
 }
 .contact {
     display: flex;
+    justify-content: center;
     align-items: center;
     fill: var(--icons-color);
 }
