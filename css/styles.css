@@ -363,12 +363,19 @@ img {
     justify-content: center;
     align-items: center;
     margin-right: 10px;
-    width: 44px;
-    height: 44px;
-    border-radius: 50px;
+    
 }
 .team-networks:last-child {
     margin-right: 0px;
+}
+
+.team-networks-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
 }
 
 .team-networks-link:hover,
