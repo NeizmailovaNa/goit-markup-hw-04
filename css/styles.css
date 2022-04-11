@@ -630,16 +630,11 @@ img {
 }
 
 .footer-networks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 70px;
 }
 
 .footer-networks-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 10px;
 }
 
@@ -648,6 +643,9 @@ img {
 }
 
 .footer-networks-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.1);
