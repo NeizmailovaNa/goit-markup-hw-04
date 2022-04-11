@@ -130,7 +130,7 @@ img {
     color: var(--blue-color);
 }
 
-.contact:hover .contact .nav-icon-envelope,
+.contact:hover .nav-icon-envelope,
 .contact:hover .nav-icon-smartphone,
 .contact:focus .nav-icon-envelope,
 .contact:focus .nav-icon-smartphone {
