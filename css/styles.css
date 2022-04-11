@@ -497,9 +497,6 @@ img {
 
 /*clients*/
 .clients-title {
-    padding-top: 94px;
-    padding-bottom: 50px;
-
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -510,9 +507,6 @@ img {
 
 .icon-logo-list {
     display: flex;
-    margin-bottom: 94px;
-    padding: 0px;
-    list-style: none;
 }
 .box-clients {
     margin-right: 30px;
@@ -522,22 +516,14 @@ img {
     margin-right: 0px;
 }
 
-.buttons-clients {
-    padding: 0px;
+.link-clients {
     width: 170px;
     height: 92px;
     border: 1px solid var(--icons-color);
     border-radius: 4px;
-    background-color: var(--white-color);
 }
 
-.icon-logo-first,
-.icon-logo-second,
-.icon-logo-third,
-.icon-logo-fourth,
-.icon-logo-fifth,
-.icon-logo-sixth {
-    margin: 16px 32px 16px 32px;
+.icon-logo-clients {
     width: 106px;
     height: 60px;  
 
@@ -545,31 +531,16 @@ img {
    
 }
 
-.icon-logo-first:hover,
-.icon-logo-second:hover,
-.icon-logo-third:hover,
-.icon-logo-fourth:hover,
-.icon-logo-fifth:hover,
-.icon-logo-sixth:hover {
-    fill: var(--blue-color);
-    cursor: pointer;
-}
-
-.icon-logo-first:focus,
-.icon-logo-second:focus,
-.icon-logo-third:focus,
-.icon-logo-fourth:focus,
-.icon-logo-fifth:focus,
-.icon-logo-sixth:focus {
-    fill: var(--blue-color);
-    cursor: pointer;
-}
-
-.buttons-clients:hover, 
-.buttons-clients:focus{
+.box-clients:hover,
+.box-clients:focus {
     border: 1px solid var(--blue-color);
     border-radius: 4px;
-    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+.link-clients:hover .icon-logo-clients ,
+.link-clients:focus .icon-logo-clients {
+    fill: var(--blue-color);
     cursor: pointer;
 }
 
