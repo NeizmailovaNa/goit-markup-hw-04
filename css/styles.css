@@ -526,7 +526,7 @@ img {
     margin-right: 0px;
 }
 
-.box-clients {
+.link-clients  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -544,8 +544,8 @@ img {
    
 }
 
-.box-clients:hover,
-.box-clients:focus {
+.link-clients:hover,
+.link-clients:focus {
     border: 1px solid var(--blue-color);
     border-radius: 4px;
     cursor: pointer;
