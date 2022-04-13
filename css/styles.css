@@ -176,10 +176,14 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     
     background-repeat: no-repeat;
-    background-image: url(../images/background-photo.jpg);
-    background-image: linear-gradient(47, 48, 58, 0.4);
+    background-position: 50px 50px;
+    background-size: auto auto;
+    background-image:linear-gradient(47, 48, 58, 0.4), url(../images/background-photo.jpg);
 }
 
 .hero-title {
@@ -425,15 +429,18 @@ img {
 .button-apps,
 .button-design,
 .button-marketing{
+    padding: 6px 22px 6px 22px;
     color: var(--main-color);
-
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+
     background: #F5F4FA;
     border-radius: 4px;
     cursor: pointer;
+    border: 0px;
 }
 
 .button-all:hover,
@@ -576,6 +583,8 @@ img {
 
 .footer-container {
     display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
 }
 
 .footer-contacts{
@@ -625,7 +634,7 @@ img {
 }
 
 .footer-title {
-    display: inline-block;
+    display: flex;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -637,15 +646,16 @@ img {
 
 .footer-networks-section {
     margin-left: 70px;
-    
 }
 
-.footer-netwoorks {
+.footer-networks {
     display: flex;
 }
 
 .footer-networks-list {
+    display: flex;
     justify-content: center;
+    align-items: center;
     margin-right: 10px;
 }
 
@@ -654,9 +664,7 @@ img {
 }
 
 .footer-networks-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.1);
