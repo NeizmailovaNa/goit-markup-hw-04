@@ -621,7 +621,7 @@ img {
 .footer-title {
     display: inline-block;
     margin-bottom: 20px;
-    margin-left: 70px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -630,9 +630,9 @@ img {
     color: var(--white-color);
 }
 
-/*.footer-networks-section {
+.footer-networks-section {
     margin-left: 70px;
-}*/
+}
 
 .footer-netwoorks {
     display: flex;
