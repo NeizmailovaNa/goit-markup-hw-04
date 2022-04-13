@@ -517,6 +517,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .box-clients {
     margin-right: 30px;
@@ -636,15 +637,12 @@ img {
 
 .footer-netwoorks {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
 .footer-networks-list {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     margin-right: 10px;
 }
 
