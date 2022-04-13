@@ -629,12 +629,15 @@ img {
     color: var(--white-color);
 }
 
-.footer-networks {
+.footer-networks-section {
+    margin-left: 70px;
+}
+
+.footer-netwoorks {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 70px;
+    margin-top: 50px;
 }
 
 .footer-networks-list {
