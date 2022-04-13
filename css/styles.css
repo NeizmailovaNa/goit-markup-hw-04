@@ -630,9 +630,9 @@ img {
     color: var(--white-color);
 }
 
-.footer-networks-section {
+/*.footer-networks-section {
     margin-left: 70px;
-}
+}*/
 
 .footer-netwoorks {
     display: flex;
@@ -642,6 +642,9 @@ img {
 }
 
 .footer-networks-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin-right: 10px;
 }
 
