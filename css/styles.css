@@ -622,7 +622,6 @@ img {
 .footer-title {
     display: inline-block;
     margin-bottom: 20px;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -633,16 +632,15 @@ img {
 
 .footer-networks-section {
     margin-left: 70px;
+    
 }
 
 .footer-netwoorks {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
 }
 
 .footer-networks-list {
+    justify-content: center;
     margin-right: 10px;
 }
 
