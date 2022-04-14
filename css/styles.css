@@ -180,8 +180,8 @@ img {
     margin-left: auto;
     margin-right: auto;
 
-    background-image: linear-gradient(47, 48, 58, 0,4), 
-    url("../images/background-photo.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/background-photo.jpg);
     background-repeat: no-repeat;
     background-position: 50px 50px;
     background-size: auto auto;
