@@ -128,7 +128,6 @@ img {
 .contact:hover,
 .contact:focus {
     color: var(--blue-color);
-    cursor: pointer;
 }
 
 .contact:hover .nav-icon-envelope,
@@ -136,7 +135,6 @@ img {
 .contact:focus .nav-icon-envelope,
 .contact:focus .nav-icon-smartphone {
     fill: var(--blue-color);
-    cursor: pointer;
 }
 
 .web-studio,
@@ -389,7 +387,6 @@ img {
 .team-networks-link:hover,
 .team-networks-link:focus {
     background: var(--blue-color);
-    cursor: pointer;
 }
 
 .team-svg {
@@ -565,13 +562,11 @@ img {
 .link-clients:focus {
     border: 1px solid var(--blue-color);
     border-radius: 4px;
-    cursor: pointer;
 }
 
 .link-clients:hover .icon-logo-clients ,
 .link-clients:focus .icon-logo-clients {
     fill: var(--blue-color);
-    cursor: pointer;
 }
 
 /* footer */
@@ -681,7 +676,6 @@ img {
 .footer-networks-link:hover,
 .footer-networks-link:focus {
     background: var(--blue-color);
-    cursor: pointer;
 }
 
 .footer-svg {
