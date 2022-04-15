@@ -147,12 +147,14 @@ img {
 }
 
 .nav-icon-envelope {
+    fill: var(--secondary-color);
     margin-right: 10px;
     width: 16px;
     height: 12px;
 }
 
 .nav-icon-smartphone {
+    fill: var(--secondary-color);
     margin-right: 10px;
     width: 10px;
     height: 16px;
@@ -183,8 +185,8 @@ img {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background-photo.jpg);
     background-repeat: no-repeat;
-    background-position: 50px 50px;
-    background-size: auto auto;
+    background-position: center;
+    background-size: cover;
     
 }
 
